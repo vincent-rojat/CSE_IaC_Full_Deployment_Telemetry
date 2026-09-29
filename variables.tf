@@ -1,16 +1,16 @@
 variable "tenant_id" {
   type    = string
-  default = "TENANT-ID-PLACEHOLDER" # modify accordingly
+  default = "60a5e6b0-6783-462c-a4a4-08c0cd9c5706" # modify accordingly
 }
 
 variable "subscription_id" {
   type    = string
-  default = "SUBSCRIPTION-ID-PLACEHOLDER" # modify accordingly
+  default = "4dbffbb6-92ea-4699-bba4-5c52b58301ff" # modify accordingly
 }
 
 variable "rg_name" {
   type    = string
-  default = "sandbox_prenom.nom" # modify accordingly
+  default = "sandbox_vincent.rojat" # modify accordingly
 }
 
 variable "location" {
@@ -20,7 +20,7 @@ variable "location" {
 
 variable "nickname" {
   type    = string
-  default = "trigram" # Replace this by your trigram, e.g., jdo for "John Doe" in lower case
+  default = "vro" # Replace this by your trigram, e.g., jdo for "John Doe" in lower case
 }
 
 variable "deploy_vm" {
